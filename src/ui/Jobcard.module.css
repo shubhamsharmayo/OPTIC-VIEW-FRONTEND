@@ -1,0 +1,62 @@
+.card {
+  box-sizing: border-box;
+  min-width: 220px;
+  min-height: 250px;
+  background: rgba(217, 217, 217, 0.58);
+  border: 1px solid white;
+  box-shadow: 12px 17px 51px rgba(0, 0, 0, 0.22);
+  backdrop-filter: blur(6px);
+  border-radius: 17px;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.5s;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  user-select: none;
+  font-weight: bolder;
+  color: black;
+}
+
+.card:hover {
+  border: 1px solid black;
+  transform: scale(1.05);
+}
+
+.card:active {
+  transform: scale(0.95) rotateZ(1.7deg);
+}
+
+/* Large screens (desktop) */
+@media (min-width: 1225px) {
+  .card {
+    width: 240px;
+    height: 250px;
+  }
+}
+
+/* Medium screens (tablets) */
+@media (max-width: 1224px) and (min-width: 768px) {
+  .card {
+    width: 240px;
+    height: 250px;
+  }
+}
+
+@media (min-width: 991px) {
+  .card {
+    width: 140px;
+    height: 200px;
+  }
+}
+
+/* Small screens (phones) */
+@media (max-width: 767px) {
+  /* .card {
+    width: 200px;
+    height: 250px;
+    padding: 10px;
+    font-size: 14px;
+  } */
+}

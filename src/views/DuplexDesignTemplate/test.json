@@ -1,0 +1,127 @@
+{
+  "layoutParameters": {
+    "key": "8e21abb7-fb1b-4a04-bc0f-3173b7181346",
+    "layoutName": "dsf",
+    "timingMarks": 65,
+    "barcodeCount": 0,
+    "iFace": 0,
+    "totalColumns": 48,
+    "bubbleType": "circle",
+    "templateImagePath": "",
+    "templateBackImagePath": "",
+    "iSensitivity": 3,
+    "iDifference": 8,
+    "ngAction": "0x00000001",
+    "dataReadDirection": "Top To Bottom",
+    "idStatus": "not present",
+    "iReject": 0,
+    "isBooklet": false,
+    "templateType": "DUPLEX",
+    "idMarksPattern": "000000000000000000000000",
+
+    "images": [
+      {
+        "frontImagePath": "1_Front.jpg",
+        "backImagePath": "2_Back.jpg"
+      },
+      {
+        "frontImagePath": "3_Front.jpg",
+        "backImagePath": "4_Back.jpg"
+      },
+      {
+        "frontImagePath": "5_Front.jpg",
+        "backImagePath": "6_Back.jpg"
+      },
+      {
+        "frontImagePath": "7_Front.jpg",
+        "backImagePath": "8_Back.jpg"
+      }
+    ],
+
+    "columnNumber": 1,
+    "columnStart": 3,
+    "columnStep": 1,
+    "rowNumber": 1,
+    "rowStart": 1,
+    "rowStep": 1,
+    "layoutCoordinates": {},
+    "imageCoordinates": {},
+    "iDirection": 4
+  },
+  "barcodeData": {
+    "barcodeSide": 0,
+    "barcodeColor": 0,
+    "barcodeType": "",
+    "barcodeCheckDigit": 0,
+    "barcodeOption": 0,
+    "barcodeRightPos": 0,
+    "barcodeLeftPos": 0,
+    "barcodeTopPos": 0,
+    "barcodeBottomPos": 0,
+    "readFrom": ""
+  },
+  "imageData": {
+    "imageEnable": 0,
+    "imageColor": 1,
+    "imageType": 0,
+    "imageParam": 0,
+    "imageRotation": 0,
+    "imageResoMode": 1,
+    "imageResolution": 1,
+    "imageScanningSide": 0,
+    "imageCompression": 0
+  },
+  "printingData": {
+    "printEnable": 0,
+    "printStartPos": 0,
+    "printDigit": 0,
+    "printStartNumber": 0,
+    "printOrientation": 0,
+    "printFontSize": 0,
+    "printFontSpace": 0,
+    "printMode": 0,
+    "customType": "date",
+    "customValue": ""
+  },
+  "skewMarksWindowParameters": [],
+  "formFieldWindowParameters": [
+    {
+      "iFace": 0,
+      "windowName": "hj",
+      "columnStart": 12,
+      "columnNumber": 8,
+      "columnStep": 1,
+      "rowStart": 6,
+      "rowNumber": 7,
+      "rowStep": 1,
+      "iDirection": 0,
+      "iSensitivity": 3,
+      "iDifference": 8,
+      "iOption": 1,
+      "prefix": "",
+      "suffix": "",
+      "iMinimumMarks": 1,
+      "iMaximumMarks": 1,
+      "iType": "2",
+      "ngAction": "0",
+      "totalNumberOfFields": 7,
+      "numericOrAlphabets": "numeric",
+      "multipleAllow": "allow",
+      "multipleValue": "",
+      "blankAllow": "allow",
+      "blankValue": "",
+      "customFieldValue": "",
+      "formatting": "XXXXXXX",
+      "side": "front",
+      "formFieldCoordinates": {
+        "right": 19,
+        "end": 12,
+        "left": 12,
+        "start": 6,
+        "name": "hj",
+        "fieldType": "formField"
+      }
+    }
+  ],
+  "imageCroppingDTO": []
+}
